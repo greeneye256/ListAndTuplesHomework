@@ -2,8 +2,6 @@ import random
 
 # Hobby Shop
 
-for i in range(3):
-    print(i)
 items = [[article, size] for article in ["shirt", "scarf", "glove", "hat"] for size in
          ["S", "M", "L", "XL", "XXL"]] * 20
 
